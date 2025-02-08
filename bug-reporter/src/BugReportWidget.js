@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import html2canvas from "html2canvas";
+import html2canvas from "html2canvas"
 import "./index.css";
 
 const BugReportWidget = ({ apiKey, apiUrl }) => {
