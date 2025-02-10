@@ -29,7 +29,7 @@ const BugReportWidget = ({ apiKey, apiUrl }) => {
         { headers: { "x-api-key": apiKey } } // Include API key for authorization
       );
 
-      alert("Bug reported successfully!");
+      alert("Bug reported successfully!")
       setOpen(false);
       setDescription("");
       setScreenshot(null);
