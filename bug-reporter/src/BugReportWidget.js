@@ -30,7 +30,7 @@ const BugReportWidget = ({ apiKey, apiUrl }) => {
       );
 
       alert("Bug reported successfully!")
-      setOpen(false);
+      setOpen(false)
       setDescription("");
       setScreenshot(null);
     } catch (error) {
