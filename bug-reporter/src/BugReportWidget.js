@@ -6,7 +6,7 @@ import "./index.css";
 const BugReportWidget = ({ apiKey, apiUrl }) => {
   const [open, setOpen] = useState(false);
   const [description, setDescription] = useState("")
-  const [screenshot, setScreenshot] = useState(null);
+  const [screenshot, setScreenshot] = useState(null)
   const [loading, setLoading] = useState(false);
 
   // Capture screenshot of the page using html2canvas
