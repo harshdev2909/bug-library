@@ -11,7 +11,7 @@ const BugReportWidget = ({ apiKey, apiUrl }) => {
 
   // Capture screenshot of the page using html2canvas
   const captureScreenshot = async () => {
-    const canvas = await html2canvas(document.body);
+    const canvas = await html2canvas(document.body)
     setScreenshot(canvas.toDataURL("image/png")); // Base64 encoded PNG
   };
 
