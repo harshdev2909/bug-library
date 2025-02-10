@@ -17,8 +17,8 @@ const BugReportWidget = ({ apiKey, apiUrl }) => {
 
   // Submit bug report along with the screenshot to the backend
   const submitBugReport = async () => {
-    if (!description.trim()) return alert("Please enter a bug description.");
-    setLoading(true);
+    if (!description.trim()) return alert("Please enter a bug description.")
+    setLoading(true)
 
     try {
       const data = { description, screenshot };
