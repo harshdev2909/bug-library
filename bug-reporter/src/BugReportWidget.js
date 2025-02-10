@@ -21,7 +21,7 @@ const BugReportWidget = ({ apiKey, apiUrl }) => {
     setLoading(true)
 
     try {
-      const data = { description, screenshot };
+      const data = { description, screenshot }
 
       const response = await axios.post(
         `http://localhost:5000/api/bugs/submit`, // Backend endpoint
