@@ -32,7 +32,7 @@ const BugReportWidget = ({ apiKey, apiUrl }) => {
       alert("Bug reported successfully!")
       setOpen(false)
       setDescription("");
-      setScreenshot(null)
+      setScreenshot(null);
     } catch (error) {
       console.error("Error submitting bug:", error);
       alert("Failed to report bug.");
